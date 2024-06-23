@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "gilroy";
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color:white;
+    /* display: flex;
+    align-items: center;
+    justify-content: center */
+    ;
+    overflow: hidden;
+    
+}
+
+#main #nav{
+    width: 100%;
+    height: 74px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  color: black;
+  font-family: "Monument";
+  /* padding: 0px ; */
+  padding-left: 153px;;
+  
+}
+
+#nav h2{
+    font-size: 30px;
+    background-image: url(https://images.unsplash.com/photo-1563305123-1548e19a200e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80);
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+
+#nav #part2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-right: 160px;
+
+}
+
+#part2 h3 {
+    text-transform: lowercase;
+    font-size: 20px;
+    font-weight: 600;
+}
+#main #center {
+    
+    width: 80%;
+    height: 80%;
+    /* background-color: red; */
+    /* position: relative;
+    top: 3%; */
+    /* border-radius: 20px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+
+}
+
+.imagecontainer{
+    width:0%;
+    height: 100%;
+    background-color: yellow;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 10px;
+    
+}
+
+img{
+    height: 100%;
+    scale: 1.8;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+
+
+.text {
+    position: absolute;
+bottom: 2%;
+left: 3%;
+/* background-color: red; */
+width :400px;
+height: 95px;
+overflow: hidden;
+z-index: 999;
+color:rgba(255, 255, 255, 0.816);
+}
+
+.text h1 {
+    font-size: 4vw;
+    position: absolute;
+    top: 95px;
+    mix-blend-mode:darken;
+    font-family: "Poppins";
+    -webkit-text-stroke: 2px #7F8285;
+
+}
+
+
+#main button{
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    border: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: "Monument";
+    letter-spacing: 1px;
+    background-image: url(https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+   border: 2px solid black;
+   padding: 5px 10px;
+   border-radius: 5px;
+   font-size: 17px;
+   transition: all linear .3s;
+}
+
+
+#main button:hover{
+    box-shadow: 5px 7px 5px 1px #6195A1;
+    border: none;
+}

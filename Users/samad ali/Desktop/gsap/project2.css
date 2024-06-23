@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "gilroy";
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-image: url("https://images.unsplash.com/photo-1686903430773-1bbd4f74f48b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=775&q=80");
+    background-size: cover;
+    background-size: center;
+    position: relative;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    filter: contrast(100px), saturate(20%);
+    
+}
+
+
+#main  #nav{
+    width: 100%;
+    height: 80px;
+    /* background-color: rgba(0, 0, 0, 0.09); */
+    color: #fff;
+    display: flex;
+    align-items: center;
+    /* padding: 10ppx; */
+    padding: 10px 0px;
+    transform-origin: center;
+
+}
+
+#nav h3 {
+    text-transform: capitalize;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+#nav img{
+    height: 100px;
+    object-position: center;
+    object-fit: cover;
+}
+
+#nav #part2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 34px;
+    position: relative;
+    left: 40%;
+    /* padding: 0px 30px; */
+    padding-right: 35px;
+}
+
+
+#nav #part2 h3:nth-child(1){
+    border-bottom: 1.5px solid yellow;
+
+}
+#nav #part2 h3 {
+    font-size: 17px;
+    text-transform: capitalize;
+    font-weight: 500;
+
+
+}
+
+
+#nav #part2 i {
+    font-size: 20px;
+    margin-left: 5px;
+   
+}
+
+#main-content {
+    width: 100%;
+    height: calc(100% - 80px);
+    display: flex;
+
+}
+
+
+#Left {
+    width: 50%;
+    height: 100%;
+    /* background-color: blanchedalmond; */
+
+}
+#text-div{
+    width: 450px;
+    height:fit-content;
+    position: relative;
+    /* background-color:black; */
+    left: 55px;
+    top: 230px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+#text-div #line {
+    width: 40px;
+    height: 2px;
+    background-color: white;
+
+}
+#text-div  p {
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 550;
+    opacity: 0.7;
+    width: 100%;
+
+}
+
+#text-div h1 {
+    font-size: 70px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 70px;
+
+}
+
+#text-div #special {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    position: relative;
+    
+
+}
+
+
+#text-div #circle{
+    width: 40px;
+    height: 40px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: black;
+    position: relative;
+    top: 30px;
+
+
+}
+
+#circle i {
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+#content  button{
+    /* border: 1.5px solid yellow; */
+    color: white;
+    position: relative;
+    left: 65px;
+    padding: 7px 14px;
+    bottom: 5px;
+    background-color: transparent;
+    border: 1px solid white;
+   border-radius: 30px;
+
+
+}
+
+
+#main-content #right {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    /* background-color: red; */
+}
+
+#right #scroller {
+    width: 100%;
+    height: 40%;
+    position: relative;
+    /* background-color: blue; */
+    top: 45%;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: auto;
+
+}
+
+#scroller::-webkit-scrollbar{
+    display: none;
+
+}
+
+#scroller .card{
+    width: 180px;
+    height: 100%;
+    background-color: yellow;
+    border-radius: 15px;
+    display: inline-block;
+    margin-right: 15px;
+    overflow: hidden;
+    transition: all ease .3s;
+    position: absolute;
+    opacity: 0.8;
+}
+
+
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+
+}
+
+

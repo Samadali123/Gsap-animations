@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "gilroy";
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+}
+
+#page1 {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: #000;
+    /* padding: 0px 40px; */
+    overflow: hidden;
+}
+
+#nav
+{
+    width: 100%;
+    height: 100px;
+    /* background-color: red; */
+    color: #fff;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 0px 35px;
+    border-bottom: 2px solid white;
+    
+
+}
+
+#nav h2 {
+    font-size: 34px;
+    text-transform: uppercase;
+}
+
+#nav h2 span{
+    color: rgb(32, 124, 83);
+}
+#nav #part2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    left: 0%;
+    
+}
+
+#nav #part2 h3 {
+    font-size: 17px;
+    text-transform: capitalize;
+    font-weight: 500;
+
+}
+
+
+#nav #part3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    position: relative;
+    left:500px;
+    color: white;
+
+}
+
+#nav #part3 h3{
+    font-size: 17px;
+    text-transform: capitalize;
+    font-weight: 500;
+
+}
+
+#nav #part3 #circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#circle i {
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+#content{
+    width: 100%;
+    height: 75%;
+    position: relative;
+    display: flex;
+}
+
+#content #left {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    /* background-color: red; */
+    color: #fff;
+    padding: 40px 10px;
+
+
+}
+
+#left h1 {
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: 550;
+    white-space: nowrap;
+    padding: 0px 20px;
+}
+#left   span img{
+    height: 45px;
+    width: 45px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: -10px;
+    position: relative;
+    left: 30px;
+}
+
+#content #right {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    /* background-color: blue; */
+    padding: 20px 30px;
+
+
+}
+
+#left #text {
+    width: 90%;
+    height: 40px;
+    display: flex;
+    /* background-color: red; */
+    align-items: center;
+    justify-content: space-between;
+    /* padding-lefpx; */
+    padding-right: 35px;
+    padding-top: 33px;
+    position: relative;
+    left: 30px;
+    top: 70px;
+    border-top: 2px solid white;
+
+
+}
+
+#left #text p{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+
+}
+
+
+
+#right #box{
+    width: 90%;
+    height: 90%;
+    position: relative;
+    background-color: #B4A0D1;
+    border-radius: 20px;
+    top: 30px;
+    overflow: hidden;
+    padding: 20px 40px;
+
+}
+
+#right #box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    position: relative;
+   object-position:20% 50%
+}
+
+#box .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.049);
+    top: 0;
+    left: 0 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 30px;
+
+}
+
+.overlay h3{
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 500;
+    position: relative;
+    left: 10px;
+
+}
+
+.overlay #button {
+    width: 100%;
+    height: 70px;
+    border: 2px solid black;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+
+}
+
+#button p {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+#button #icon {
+    width: 40px;
+    height: 40px;
+    /* border: 2px solid white; */
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   border-radius: 50%;
+  color: #fff;
+}
+#page2 {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+
+
+#part1 {
+    width: 25%;
+    height: 50%;
+    /* background-color: black; */
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+
+}
+
+
+
+
+
+
+#part1 h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+#part1  button{
+    border: 2px solid white;
+    color:white;
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+#part2 {
+    width: 75%;
+    height: 50%;
+    /* background-color: blue; */
+    display: flex;
+    padding: 0px 22px;
+
+}
+
+#part2 .cards{
+    width: 32%;
+    height: 100%;
+    background-color: #FD5E09;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* gap: 10px; */
+    padding:30px 50px;
+    border-top-right-radius: 50px;
+    color: black;
+
+
+}
+
+.cards p {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+
+
+
+
+#part2 #card1  p {
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#part2 #card2{
+    position: relative;
+    background-color: #E0E0E0;
+
+}
+
+
+#card2 h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+
+#part2 #card3 {
+    position: relative;
+    background-color: #FDC959;
+
+}
+
+
+
+#card3 h2 {
+    font-size: 50px;
+    
+}
+
+#card3 h2 sup{
+    position: relative;
+    right: 10px;
+}

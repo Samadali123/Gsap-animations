@@ -1,0 +1,421 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "gilroy";
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: white;
+    display: flex;
+    overflow: hidden;
+
+}
+
+
+#left {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    background-color:rgba(157, 152, 152, 0.398);
+    color: black;
+
+
+}
+
+#nav-left {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 40px;
+    padding-top: 30px;
+
+    
+    
+}
+
+#nav-left h2 {
+    font-size: 22px;
+    text-transform: capitalize;
+    font-weight: 800;
+
+}
+
+#nav-left #part2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    left: 130px;
+    z-index: 10;
+
+}
+#nav-left  #part2 h3 {
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 500;
+
+}
+
+
+
+#left #circle {
+    width: 600px;
+    height: 600px;
+    /* background-color: white; */
+    border: 60px solid white;
+    border-radius: 50%;
+    position: relative;
+    left: -25%;
+    top: -46%;
+
+}
+
+#left #content-div {
+    position: relative;
+    width: 38px;
+    height: 120px;
+    /* background-color: black; */
+    border: 2px solid black;
+    bottom: 73%;
+    left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 0px;
+    gap: 30px;
+
+}
+
+#content-div p {
+    transform: rotate(90deg);
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+
+#left #text-div{
+    width: 300px;
+    height: 400px;
+    /* background-color: red; */
+    position: relative;
+    bottom: 80%;
+    left: 44%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+#text-div #upper-text {
+    width: 100%;
+    height: 25%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+
+}
+
+#upper-text  h3 {
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: 3px;
+
+
+}
+
+#upper-text #upperline {
+    width: 70px;
+    height: 1.5px;
+    background-color:black;
+}
+
+#text-div #center-text {
+    width: 100%;
+    color: white;
+    height: 50%;
+}
+#text-div #lower-text {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+
+    
+}
+
+#lower-text h3 {
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: 3px;
+
+}
+
+
+#lower-text #lowerline{
+    width: 70px;
+    height: 1.5px;
+    background-color:black;
+
+}
+
+
+#center-text h1 {
+    font-size: 120px;
+    position: relative;
+    top: 40px;
+    font-family: "gilroy";
+    font-weight: 700;
+    -webkit-text-stroke: 2px white;
+    letter-spacing: 5px;
+    white-space: nowrap;
+    right: 55px;
+}
+
+#left #btns {
+    width: 100px;
+    height: 30px;
+    border: 2px solid black;
+    position: relative;
+    bottom: 67%;
+    left:35px;
+    display: flex;
+}
+
+#btns #first {
+    width: 50%;
+    height: 100%;
+    border-right: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btns #first i {
+    font-size: 30px;
+    font-weight: 400;
+}
+#btns #second {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+#btns #second i {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#left #footer-left{
+    position: relative;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    white-space: nowrap;
+    gap: 30px;
+    bottom: 66%;
+    left: 128px;
+}
+
+#footer-left p {
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+#right {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    background-color: #32233e;
+    color: #fff;
+}
+
+#nav-right {
+    width: 100%;
+    height: 100px;
+    /* background-color: red; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0px 80px;
+    gap: 40px;
+
+
+}
+
+#nav-right h3 {
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+
+}
+
+
+#right-text {
+    width: 300px;
+    height: 400px;
+    /* background-color: red; */
+    position: relative;
+    bottom: 47%;
+    left: 27%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+#right-text #text1{
+    width: 100%;
+    height: 25%;
+    position: relative;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 37px;
+
+}
+#text1 h3 {
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: 3px;
+
+
+}
+
+#text1 #line1 {
+    width: 70px;
+    height: 1.5px;
+    background-color: rgba(255, 255, 255, 0.376);
+}
+#right-text #text2 {
+    width: 100%;
+    height: 50%;
+    position: relative;
+    /* background-color: yellow; */
+    text-align: center;
+    
+}
+
+#right-text #text2 h1 {
+    font-size: 120px;
+    position: relative;
+    top: 10px;
+    font-family: "gilroy";
+    font-weight: 700;
+    -webkit-text-stroke: 2px white;
+    letter-spacing: 20px;
+    white-space: nowrap;
+    right: 55px;
+    text-transform: uppercase;
+
+}
+
+#right #text3 {
+    width: 100%;
+    height: 25%;
+    position: relative;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+
+}
+
+#text3 h3 {
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: 3px;
+
+}
+
+#text3 #line2{
+    width: 70px;
+    height: 1.5px;
+    background-color: rgba(255, 255, 255, 0.376);
+
+}
+
+#btn-right {
+    width: 40px;
+    height: 100px;
+    border: 2px solid white;
+    position: relative;
+    left: 85%;
+    bottom: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    
+}
+
+#btn-right p {
+    transform: rotate(90deg);
+    font-size: 14px;
+    font-weight: 400;
+
+
+}
+
+#socials {
+    width: 300px;
+    height: 30px;
+    position: relative;
+    /* background-color: red; */
+    left: 50%;
+    bottom:51%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 34px;
+
+
+}
+
+#socials p {
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 500;
+
+}
+
+
+#right  img{
+    position: relative;
+    right: 130px;
+    /* width: 100%; */
+    height: 60%;
+    object-fit: cover;
+    top: 15px;
+    
+
+}
+
